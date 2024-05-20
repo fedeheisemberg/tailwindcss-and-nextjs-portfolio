@@ -43,6 +43,7 @@ const AboutSection = () => {
               </span>{" "}
               ya que el crecimiento personal es un viaje que nunca termina. Mi pasión por la tecnología y mi deseo de siempre empujar los límites de lo posible me motivan día a día. Siempre estoy abierto a nuevas oportunidades y desafíos. 🙂
             </p>
+            <br />
             <p>
             Si necesitas ayuda o asesoramiento en algún tema, no dudes en contactarme.
             </p>
