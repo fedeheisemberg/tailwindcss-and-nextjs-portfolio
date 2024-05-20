@@ -9,7 +9,7 @@ const projects = [
     name: "Optima Consulting & Management LLC",
     description:
       "Soy cofundador de una empresa dedicada a integrar tecnología avanzada en el sector financiero.",
-    image: "/optima.jpg",
+    image: "/platoio.png",
     github: "https://github.com/fedeheisemberg/Optima-Landing-Page",
     link: "https://www.optimafinancials.com/",
   },
