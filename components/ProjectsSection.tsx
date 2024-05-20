@@ -6,27 +6,27 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Optima Consulting & Management",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Mi empresa, de la cual soy Co Fundador, en la que busco integrar tecnología al mundo de las finanzas.",
+    image: "/optima.jpg",
+    github: "https://github.com/fedeheisemberg/Optima-Landing-Page",
+    link: "https://www.optimafinancials.com/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Mi canal de Youtube",
+    description: "Aquí encontrarás herramientas relacionadas al mundo de los datos y las finanzas.",
+    image: "/github.jpg",
+    github: "https://github.com/fedeheisemberg",
+    link: "https://www.youtube.com/@FedeMartinezQuantFinance",
   },
   {
-    name: "Kator Family Photos",
+    name: "Mi repositorio en Tableu",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "Aquí podrás ver las visualizaciones de datos que he creado.",
+    image: "/tableu.jpg",
+    github: "#",
+    link: "https://public.tableau.com/app/profile/federico.martinez3300/vizzes",
   },
 ]
 
@@ -34,7 +34,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Projects
+        Proyectos
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
