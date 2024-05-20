@@ -9,14 +9,14 @@ const projects = [
     name: "Optima Consulting & Management LLC",
     description:
       "Soy cofundador de una empresa dedicada a integrar tecnología avanzada en el sector financiero.",
-    image: "/platoio.png",
+    image: "/optima.png",
     github: "https://github.com/fedeheisemberg/Optima-Landing-Page",
     link: "https://www.optimafinancials.com/",
   },
   {
     name: "Mi canal de Youtube",
     description: "Aquí encontrarás herramientas relacionadas al mundo de los datos y las finanzas.",
-    image: "/github.jpg",
+    image: "/github.png",
     github: "https://github.com/fedeheisemberg",
     link: "https://www.youtube.com/@FedeMartinezQuantFinance",
   },
@@ -24,7 +24,7 @@ const projects = [
     name: "Mi repositorio en Tableu",
     description:
       "Aquí podrás ver las visualizaciones de datos que he creado.",
-    image: "/tableu.jpg",
+    image: "/tableu.png",
     github: "#",
     link: "https://public.tableau.com/app/profile/federico.martinez3300/vizzes",
   },
