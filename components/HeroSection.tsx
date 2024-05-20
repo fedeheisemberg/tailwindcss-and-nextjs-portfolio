@@ -18,13 +18,13 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hola, Soy Fede!</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hola!, soy Fede.</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             Soy{" "}
             <span className="font-semibold text-teal-600">
               Financial Data Analyst{" "}
             </span>
-            radicado en San Juan, Argentina. Estoy intrigado por descubrir cómo la tecnología puede revolucionar el mundo financiero. Mi objetivo es crear soluciones tecnológicas innovadoras que capaciten a las personas para gestionar sus finanzas de forma más inteligente y eficiente. Quiero ayudar a las personas a alcanzar sus metas financieras con confianza y seguridad, brindándoles herramientas poderosas que les permitan tomar decisiones informadas y controlar su futuro financiero.
+            con base en San Juan, Argentina. Me fascina explorar cómo la innovación tecnológica puede transformar el ámbito financiero. Mi meta es diseñar soluciones avanzadas que empoderen a individuos en la administración eficaz de sus economías, permitiéndoles alcanzar sus objetivos con certeza y protección. Me dedico a proporcionar herramientas robustas que faciliten decisiones informadas y autónomas, abarcando desde finanzas cuantitativas hasta técnicas de aprendizaje automático, para optimizar la gestión del patrimonio financiero.
           </p>
           <Link
             to="projects"
