@@ -19,7 +19,7 @@ const AboutSection = () => {
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
-          Sobre mi
+          Sobre mí
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
         </h1>
 
@@ -28,12 +28,6 @@ const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Ven a conocerme!
             </h1>
-            <p>
-              Hola, mi nombre es Federico y soy {" "}
-              <span className="font-bold">{"un altamente dedicado analista "}</span>
-              radicado en San Juan, Argentina.
-            </p>
-            <br />
             <p>
               Estudio Economía y Administración en Universidad de Congreso y he estado aplicando mis conocimientos desde entonces.
             </p>
@@ -49,20 +43,24 @@ const AboutSection = () => {
               </span>{" "}
               y eso es lo que me esfuerzo por hacer. Tengo una pasión por la tecnología y un deseo de siempre empujar los límites de lo que es posible. Siempre estoy abierto a nuevas oportunidades. 🙂
             </p>
+            <a
+              href="mailto:fedemarti0107@gmail.com"
+              className="inline-block mt-4 bg-teal-500 text-white font-bold py-2 px-4 rounded hover:bg-teal-600 transition-colors"
+            >
+              Contáctame
+            </a>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">Mis habilidades</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-              {skills.map((item, idx) => {
-                return (
-                  <p
-                    key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
-                  >
-                    {item.skill}
-                  </p>
-                )
-              })}
+              {skills.map((item, idx) => (
+                <p
+                  key={idx}
+                  className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                >
+                  {item.skill}
+                </p>
+              ))}
             </div>
             <Image
               src="/hero-image.png"
@@ -79,3 +77,4 @@ const AboutSection = () => {
 }
 
 export default AboutSection
+
