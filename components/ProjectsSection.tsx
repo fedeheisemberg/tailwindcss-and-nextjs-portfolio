@@ -6,7 +6,7 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Optima Consulting & Management",
+    name: "Optima Consulting & Management LLC",
     description:
       "Soy cofundador de una empresa dedicada a integrar tecnología avanzada en el sector financiero.",
     image: "https://drive.google.com/file/d/17PxlW5I-_Ug6Js5QwEMlEa42x8CM0jQ9/view?usp=drive_link",

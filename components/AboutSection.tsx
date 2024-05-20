@@ -29,19 +29,22 @@ const AboutSection = () => {
               Ven a conocerme!
             </h1>
             <p>
-              Estudio Economía y Administración en Universidad de Congreso y he estado aplicando mis conocimientos desde entonces.
+            Estudio Economía y Administración en la Universidad de Congreso y desde entonces he estado aplicando activamente mis conocimientos. Soy operador de bolsa desde 2020 y un entusiasta de la revolución de las criptomonedas. Además, cofundé Optima Consulting & Management LLC, una empresa que se especializa en ciencia de datos aplicada a las finanzas.
             </p>
             <br />
             <p>
-            Tengo una amplia gama de hobbies y pasiones que me mantienen ocupado. Desde leer, jugar videojuegos, viajar, hasta hacer videos en YouTube, soy extremadamente autodidacta y amo aprender cosas nuevas.
+            Tengo una amplia gama de hobbies y pasiones que me mantienen ocupado y en constante aprendizaje. Mis actividades van desde leer y jugar videojuegos hasta viajar y crear contenido para YouTube. Mi curiosidad innata me impulsa a explorar nuevos horizontes y adquirir habilidades en diversas áreas.
             </p>
             <br />
             <p>
-              Creo que {" "}
+              Estoy comprometido con el {" "}
               <span className="font-bold text-teal-500">
-              nunca debes dejar de crecer
+              aprendizaje permanente
               </span>{" "}
-              y eso es lo que me esfuerzo por hacer. Tengo una pasión por la tecnología y un deseo de siempre empujar los límites de lo que es posible. Siempre estoy abierto a nuevas oportunidades. 🙂
+              ya que el crecimiento personal es un viaje que nunca termina. Mi pasión por la tecnología y mi deseo de siempre empujar los límites de lo posible me motivan día a día. Siempre estoy abierto a nuevas oportunidades y desafíos. 🙂
+            </p>
+            <p>
+            Si necesitas ayuda o asesoramiento en algún tema, no dudes en contactarme.
             </p>
             <a
               href="mailto:fedemarti0107@gmail.com"
