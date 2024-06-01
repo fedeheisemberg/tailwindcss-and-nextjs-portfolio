@@ -68,7 +68,7 @@ const AboutSection = () => {
            ¿Cómo pueden mis habilidades ayudar a tu empresa?
           </h1>
           <p className="text-center">
-            Aprovecho mi conocimiento para limpiar, transformar y visualizar datos en ideas y mejoras que pueden impulsar el crecimiento de tu negocio.
+            Aprovecho mi conocimiento para limpiar, transformar y visualizar datos generando ideas y mejoras que pueden impulsar el crecimiento de tu negocio.
           </p>
           <p className="text-center">
             Si necesitas ayuda, asesoramiento o solucionar un problema de datos, no dudes en contactarme. Estoy para ayudar.
