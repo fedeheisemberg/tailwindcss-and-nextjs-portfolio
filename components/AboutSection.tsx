@@ -37,13 +37,13 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              Estoy comprometido con el 
-              <span className="font-bold text-teal-500">
-               aprendizaje permanente 
-              </span>
-              ya que el crecimiento personal es un viaje que nunca termina. Mi pasión por la tecnología y mi deseo de siempre empujar los límites de lo posible me motivan día a día. Siempre estoy abierto a nuevas oportunidades y desafíos. 🙂
+            Estoy comprometido con el 
+            <span className="font-bold text-teal-500">
+            {" aprendizaje permanente "}
+            </span>
+            ya que el crecimiento personal es un viaje que nunca termina. Mi pasión por la tecnología y mi deseo de siempre empujar los límites de lo posible me motivan día a día. Siempre estoy abierto a nuevas oportunidades y desafíos. 📊
             </p>
-            <br />
+            <br  />
 
           </div>
           <div className="md:w-1/2">
