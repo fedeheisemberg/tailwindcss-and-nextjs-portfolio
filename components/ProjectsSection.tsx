@@ -6,12 +6,12 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Optima Consulting & Management LLC",
+    name: "Mi repositorio en Tableu",
     description:
-      "Soy cofundador de una empresa dedicada a integrar tecnología avanzada en el sector financiero.",
-    image: "/optima.png",
-    github: "https://github.com/fedeheisemberg/Optima-Landing-Page",
-    link: "https://www.optimafinancials.com/",
+      "Aquí podrás ver las visualizaciones de datos que he creado.",
+    image: "/tableu.png",
+    github: "#",
+    link: "https://public.tableau.com/app/profile/federico.martinez3300/vizzes",
   },
   {
     name: "Mi canal de Youtube",
@@ -21,12 +21,12 @@ const projects = [
     link: "https://www.youtube.com/@FedeMartinezQuantFinance",
   },
   {
-    name: "Mi repositorio en Tableu",
+    name: "Optima Consulting & Management LLC",
     description:
-      "Aquí podrás ver las visualizaciones de datos que he creado.",
-    image: "/tableu.png",
-    github: "#",
-    link: "https://public.tableau.com/app/profile/federico.martinez3300/vizzes",
+      "Soy cofundador de una empresa dedicada a integrar tecnología avanzada en el sector financiero.",
+    image: "/optima.png",
+    github: "https://github.com/fedeheisemberg/Optima-Landing-Page",
+    link: "https://www.optimafinancials.com/",
   },
 ]
 

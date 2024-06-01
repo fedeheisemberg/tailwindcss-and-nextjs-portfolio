@@ -9,6 +9,7 @@ const skills = [
   { skill: "Microsoft Excel" },
   { skill: "Jupyter Notebooks" },
   { skill: "AWS" },
+  { skill: "Google Cloud Platform" },
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "Docker" },
@@ -26,14 +27,14 @@ const AboutSection = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              Ven a conocerme!
+              ¡Conóceme!:
             </h1>
             <p>
-            Estudio Economía y Administración en la Universidad de Congreso y desde entonces he estado aplicando activamente mis conocimientos. Soy operador de bolsa desde 2020 y un entusiasta de la revolución de las criptomonedas. Además, cofundé Optima Consulting & Management LLC, una empresa que se especializa en ciencia de datos aplicada a las finanzas.
+            Estudio Economía y Administración en la Universidad de Congreso. Soy operador de bolsa desde 2020 y un entusiasta de la revolución de las criptomonedas. 
             </p>
             <br />
             <p>
-            Tengo una amplia gama de hobbies y pasiones que me mantienen ocupado y en constante aprendizaje. Mis actividades van desde leer y jugar videojuegos hasta viajar y crear contenido para YouTube. Mi curiosidad innata me impulsa a explorar nuevos horizontes y adquirir habilidades en diversas áreas.
+            Co fundé Optima Consulting & Management LLC, una empresa que se especializa en ciencia de datos aplicada a las finanzas. Mis hobbies van desde leer y jugar videojuegos hasta viajar y crear contenido para YouTube.
             </p>
             <br />
             <p>
@@ -53,6 +54,15 @@ const AboutSection = () => {
             >
               Contáctame
             </a>
+          </div>
+          <div className="md:w-1/2 ">
+
+            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
+             ¿Cómo pueden mis habilidades ayudar a tu empresa?
+            </h1>
+            <p>
+              Aprovecho mi profundo conocimiento para transformar datos en ideas y mejoras que pueden impulsar el crecimiento de tu negocio.
+            </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">Mis habilidades</h1>

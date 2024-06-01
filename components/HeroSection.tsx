@@ -12,8 +12,8 @@ const HeroSection = () => {
           <Image
             src="/headshot.jpg"
             alt=""
-            width={325}
-            height={325}
+            width={425}
+            height={425}
             className="rounded-full shadow-2xl"
           />
         </div>
@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Financial Data Analyst{" "}
             </span>
-            con base en San Juan, Argentina. Me fascina explorar cómo la innovación tecnológica puede transformar el ámbito financiero. Mi meta es diseñar soluciones avanzadas que empoderen a individuos en la administración eficaz de sus economías, permitiéndoles alcanzar sus objetivos con certeza y protección. Me dedico a proporcionar herramientas robustas que faciliten decisiones informadas y autónomas, abarcando desde finanzas cuantitativas hasta técnicas de aprendizaje automático, para optimizar la gestión del patrimonio financiero.
+            con base en San Juan, Argentina. Me fascina explorar cómo la innovación tecnológica puede transformar el ámbito financiero. Diseño soluciones avanzadas para una gestión financiera efectiva, utilizando técnicas de aprendizaje automático y finanzas cuantitativas.
           </p>
           <Link
             to="projects"
@@ -48,7 +48,7 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce" />
+          <HiArrowDown size={45} className="animate-bounce" />
         </Link>
       </div>
     </section>
