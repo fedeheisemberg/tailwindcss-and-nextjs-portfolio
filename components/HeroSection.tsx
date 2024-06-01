@@ -24,19 +24,21 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Financial Data Analyst{" "}
             </span>
-            con base en San Juan, Argentina. Me fascina explorar cómo la innovación tecnológica puede transformar el ámbito financiero. Diseño soluciones avanzadas para una gestión financiera efectiva, utilizando técnicas de aprendizaje automático y finanzas cuantitativas.
+            con base en San Juan, Argentina. Estoy sumergido en el ámbito de las finanzas cuantitativas y la analítica de negocios, explorando cómo las innovaciones tecnológicas pueden revolucionar la gestión financiera mediante aprendizaje automático y análisis avanzados.
           </p>
-          <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Proyectos
-          </Link>
+          <div className="flex justify-center"> {/* Encapsula el Link en un div para centrarlo */}
+            <Link
+              to="projects"
+              className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Proyectos
+            </Link>
+          </div>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
@@ -48,7 +50,7 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={45} className="animate-bounce" />
+          <HiArrowDown size={55} className="animate-bounce" />
         </Link>
       </div>
     </section>
@@ -56,3 +58,4 @@ const HeroSection = () => {
 }
 
 export default HeroSection
+
