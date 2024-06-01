@@ -1,5 +1,4 @@
-import React from "react"
-import Image from "next/image"
+import React from "react";
 
 const skills = [
   { skill: "Python" },
@@ -25,12 +24,12 @@ const AboutSection = () => {
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
-          <div className="md:w-1/2 ">
+          <div className="md:w-1/2">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              ¡Conóceme!:
+              ¡Conóceme!
             </h1>
             <p>
-            Estudio Economía y Administración en la Universidad de Congreso. Soy operador de bolsa desde 2020 y un entusiasta de la revolución de las criptomonedas. 
+            Estudio Economía y Administración en la Universidad de Congreso. Soy operador de bolsa desde 2020 y un entusiasta de la revolución de las criptomonedas.
             </p>
             <br />
             <p>
@@ -38,57 +37,52 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              Estoy comprometido con el {" "}
+              Estoy comprometido con el 
               <span className="font-bold text-teal-500">
               aprendizaje permanente
-              </span>{" "}
+              </span>
               ya que el crecimiento personal es un viaje que nunca termina. Mi pasión por la tecnología y mi deseo de siempre empujar los límites de lo posible me motivan día a día. Siempre estoy abierto a nuevas oportunidades y desafíos. 🙂
             </p>
             <br />
             <p>
             Si necesitas ayuda o asesoramiento en algún tema, no dudes en contactarme.
             </p>
-            <a
-              href="mailto:fedemarti0107@gmail.com"
-              className="inline-block mt-4 bg-teal-500 text-white font-bold py-2 px-4 rounded hover:bg-teal-600 transition-colors"
-            >
-              Contáctame
-            </a>
           </div>
-          <div className="md:w-1/2 ">
-
-            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-             ¿Cómo pueden mis habilidades ayudar a tu empresa?
-            </h1>
-            <p>
-              Aprovecho mi profundo conocimiento para transformar datos en ideas y mejoras que pueden impulsar el crecimiento de tu negocio.
-            </p>
-          </div>
-          <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">Mis habilidades</h1>
-            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-              {skills.map((item, idx) => (
-                <p
-                  key={idx}
-                  className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
-                >
-                  {item.skill}
-                </p>
-              ))}
+          <div className="md:w-1/2">
+            <div className="text-center md:w-full md:text-left">
+              <h1 className="text-2xl font-bold mb-6">Mis habilidades</h1>
+              <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+                {skills.map((item, idx) => (
+                  <p
+                    key={idx}
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                  >
+                    {item.skill}
+                  </p>
+                ))}
+              </div>
             </div>
-            <Image
-              src="/hero-image.png"
-              alt=""
-              width={325}
-              height={325}
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
-            />
           </div>
+        </div>
+        <div className="flex flex-col items-center justify-center md:w-full">
+          <h1 className="text-center text-2xl font-bold mb-6">
+           ¿Cómo pueden mis habilidades ayudar a tu empresa?
+          </h1>
+          <p className="text-center">
+            Aprovecho mi profundo conocimiento para transformar datos en ideas y mejoras que pueden impulsar el crecimiento de tu negocio.
+          </p>
+          <a
+            href="mailto:fedemarti0107@gmail.com"
+            className="inline-block mt-4 bg-teal-500 text-white font-bold py-2 px-4 rounded hover:bg-teal-600 transition-colors"
+          >
+            Contáctame
+          </a>
         </div>
       </div>
     </section>
   )
 }
 
-export default AboutSection
+export default AboutSection;
+
 

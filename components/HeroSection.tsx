@@ -12,8 +12,8 @@ const HeroSection = () => {
           <Image
             src="/headshot.jpg"
             alt=""
-            width={425}
-            height={425}
+            width={400}
+            height={400}
             className="rounded-full shadow-2xl"
           />
         </div>
