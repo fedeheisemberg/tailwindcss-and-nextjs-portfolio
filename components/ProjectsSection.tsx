@@ -30,19 +30,20 @@ const projects = [
     link: "https://www.optimafinancials.com/",
   },
   {
-    name: "Mi perfil de Streamlit",
-    description: "Accede a mis aplicaciones y proyectos desplegados en Streamlit.",
-    image: "streamlit.PNG",  // Asegúrate de que la imagen esté en el directorio adecuado
-    github: "https://github.com/fedeheisemberg",
-    link: "https://share.streamlit.io/user/fedeheisemberg",
-  },
-  {
     name: "OptionsPro Dashboard",
     description: "Accede gratis a este dashboard para operadores de opciones financieras.",
     image: "/dashboard.PNG",  // Asegúrate de que la imagen esté en el directorio adecuado
     github: "#",  // Puedes agregar el enlace de GitHub si lo tienes
     link: "https://optionsdashboard234.streamlit.app/",
   },
+  {
+    name: "Mi perfil de Streamlit",
+    description: "Accede a mis aplicaciones y proyectos desplegados en Streamlit.",
+    image: "streamlit.PNG",  // Asegúrate de que la imagen esté en el directorio adecuado
+    github: "#",
+    link: "https://share.streamlit.io/user/fedeheisemberg",
+  },
+
 ];
 
 const ProjectsSection = () => {

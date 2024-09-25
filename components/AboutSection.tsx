@@ -2,15 +2,15 @@ import React from "react";
 
 const skills = [
   { skill: "Python" },
-  { skill: "Anaconda" },
-  { skill: "Tableu" },
+  { skill: "Anaconda & Jupyter Notebooks" },
+  { skill: "Tableau" },
   { skill: "PostgreSQL" },
   { skill: "Microsoft Excel" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "" },
   { skill: "AWS" },
   { skill: "Google Cloud Platform" },
-  { skill: "Git" },
-  { skill: "GitHub" },
+  { skill: "Git & Github" },
+  { skill: "" },
   { skill: "Docker" },
 ]
 

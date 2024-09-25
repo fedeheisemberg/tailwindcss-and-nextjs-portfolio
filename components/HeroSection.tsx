@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Financial Data Analyst{" "}
             </span>
-            con base en San Juan, Argentina. Estoy sumergido en el ámbito de las finanzas cuantitativas y la analítica de negocios, explorando cómo las innovaciones tecnológicas pueden revolucionar la gestión financiera mediante aprendizaje automático y análisis avanzados.
+            con base en San Juan, Argentina. Me dedico al ámbito de las finanzas cuantitativas y la analítica de negocios, explorando cómo la tecnología puede ayudar a la gestión financiera mediante aprendizaje automático y análisis avanzados.
           </p>
           <div className="flex justify-center"> {/* Encapsula el Link en un div para centrarlo */}
             <Link
