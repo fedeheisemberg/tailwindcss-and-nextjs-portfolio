@@ -6,11 +6,9 @@ const skills = [
   { skill: "Tableau" },
   { skill: "PostgreSQL" },
   { skill: "Microsoft Excel" },
-  { skill: "" },
   { skill: "AWS" },
   { skill: "Google Cloud Platform" },
   { skill: "Git & Github" },
-  { skill: "" },
   { skill: "Docker" },
 ]
 
