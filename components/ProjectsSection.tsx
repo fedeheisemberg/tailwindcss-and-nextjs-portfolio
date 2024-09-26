@@ -34,7 +34,7 @@ const projects = [
     description: "Accede gratis a este dashboard para operadores de opciones financieras.",
     image: "/dashboard.PNG",  // Asegúrate de que la imagen esté en el directorio adecuado
     github: "#",  // Puedes agregar el enlace de GitHub si lo tienes
-    link: "https://optionsdashboard234.streamlit.app/",
+    link: "https://optimaoptionspro.streamlit.app/",
   },
   {
     name: "Mi perfil de Streamlit",
