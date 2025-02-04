@@ -1,8 +1,8 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
@@ -15,7 +15,8 @@ const projects = [
   },
   {
     name: "Mi canal de Youtube",
-    description: "Aquí encontrarás herramientas relacionadas al mundo de los datos y las finanzas.",
+    description:
+      "Aquí encontrarás herramientas relacionadas al mundo de los datos y las finanzas.",
     image: "/github.png",
     github: "https://github.com/fedeheisemberg",
     link: "https://www.youtube.com/@FedeMartinezQuantFinance",
@@ -28,7 +29,22 @@ const projects = [
     github: "https://github.com/fedeheisemberg/Optima-Landing-Page",
     link: "https://www.optimafinancials.com/",
   },
-]
+  {
+    name: "OptionsPro Dashboard",
+    description: "Accede gratis a este dashboard para operadores de opciones financieras.",
+    image: "/dashboard.PNG",  // Asegúrate de que la imagen esté en el directorio adecuado
+    github: "#",  // Puedes agregar el enlace de GitHub si lo tienes
+    link: "https://optimaoptionspro.streamlit.app/",
+  },
+  {
+    name: "Mi perfil de Streamlit",
+    description: "Accede a mis aplicaciones y proyectos desplegados en Streamlit.",
+    image: "streamlit.PNG",  // Asegúrate de que la imagen esté en el directorio adecuado
+    github: "#",
+    link: "https://share.streamlit.io/user/fedeheisemberg",
+  },
+
+];
 
 const ProjectsSection = () => {
   return (
@@ -43,12 +59,12 @@ const ProjectsSection = () => {
           return (
             <div key={idx}>
               <SlideUp offset="-300px 0px -300px 0px">
-                <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
-                  <div className=" md:w-1/2">
+                <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
+                  <div className="md:w-1/2">
                     <Link href={project.link}>
                       <Image
                         src={project.image}
-                        alt=""
+                        alt={project.name}
                         width={1000}
                         height={1000}
                         className="rounded-xl shadow-xl hover:opacity-70"
@@ -78,12 +94,12 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;
+
