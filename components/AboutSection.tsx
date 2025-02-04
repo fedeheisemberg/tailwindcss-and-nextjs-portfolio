@@ -3,7 +3,7 @@ import React from "react";
 const skills = [
   { skill: "Python" },
   { skill: "Anaconda" },
-  { skill: "Tableu" },
+  { skill: "Tableau" },
   { skill: "PostgreSQL" },
   { skill: "Microsoft Excel" },
   { skill: "Jupyter Notebooks" },
@@ -12,6 +12,8 @@ const skills = [
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "Docker" },
+  { skill: "Automatización (RPA)" },
+  { skill: "ETL & Data Pipelines" },
 ]
 
 const AboutSection = () => {
@@ -29,22 +31,21 @@ const AboutSection = () => {
               ¡Conóceme!
             </h1>
             <p>
-            Estudio Economía y Administración en la Universidad de Congreso. Soy operador de bolsa desde 2020 y un entusiasta de la revolución de las criptomonedas.
+              Estudio Economía y Administración en la Universidad de Congreso. Soy operador de bolsa desde 2020 y un entusiasta de la revolución de las criptomonedas.
             </p>
             <br />
             <p>
-            Co fundé Optima Consulting & Management LLC, una empresa que se especializa en ciencia de datos aplicada a las finanzas. Mis hobbies van desde leer y jugar videojuegos hasta viajar y crear contenido para YouTube.
+              En 2023, Co-fundé Optima Consulting & Management LLC, una empresa que se especializa en ciencia de datos aplicada a las finanzas. Además, ayudo a empresas a automatizar procesos administrativos y optimizar su uso de datos para mejorar la toma de decisiones.
             </p>
             <br />
             <p>
-            Estoy comprometido con el 
-            <span className="font-bold text-teal-500">
-            {" aprendizaje permanente "}
-            </span>
-            ya que el crecimiento personal es un viaje que nunca termina. Mi pasión por la tecnología y mi deseo de siempre empujar los límites de lo posible me motivan día a día. Siempre estoy abierto a nuevas oportunidades y desafíos. 📊
+              Estoy comprometido con el 
+              <span className="font-bold text-teal-500">
+              {" aprendizaje permanente "}
+              </span>
+              ya que el crecimiento personal es un viaje que nunca termina. Mi pasión por la tecnología y mi deseo de siempre empujar los límites de lo posible me motivan día a día. Siempre estoy abierto a nuevas oportunidades y desafíos. 📊
             </p>
             <br  />
-
           </div>
           <div className="md:w-1/2">
             <div className="text-center md:w-full md:text-left">
@@ -65,14 +66,14 @@ const AboutSection = () => {
         <div className="flex flex-col items-center justify-center md:w-full">
           <br />
           <h1 className="text-center text-2xl font-bold mb-6">
-           ¿Cómo pueden mis habilidades ayudar a tu empresa?
+            ¿Cómo pueden mis habilidades ayudar a tu empresa?
           </h1>
           <p className="text-center">
-            Aprovecho mi conocimiento para limpiar, transformar y visualizar datos generando ideas y mejoras que pueden impulsar el crecimiento de tu negocio.
+            Ayudo a empresas a reducir costos y mejorar la eficiencia mediante la automatización de procesos (RPA), el análisis avanzado de datos y la implementación de soluciones de ETL para organizar información dispersa.
           </p>
           <br />
           <p className="text-center">
-            Si necesitas ayuda, asesoramiento o solucionar un problema de datos, no dudes en contactarme. Estoy para ayudar.
+            Si necesitas mejorar la eficiencia operativa de tu empresa o transformar tus datos en insights accionables, no dudes en contactarme. Estoy aquí para ayudar.
           </p>
           <a
             href="mailto:fedemarti0107@gmail.com"
