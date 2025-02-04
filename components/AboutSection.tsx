@@ -8,6 +8,7 @@ const skills = [
   { skill: "Microsoft Excel" },
   { skill: "AWS" },
   { skill: "Google Cloud Platform" },
+  { skill: "Google Suite" },
   { skill: "Git & Github" },
   { skill: "Docker" },
   { skill: "Automatización (RPA)" },
